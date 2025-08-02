@@ -1,0 +1,540 @@
+{
+  "users": [
+    {
+      "id": "1418",
+      "name": "Priya",
+      "email": "priya123",
+      "password": "priya@gmail.com",
+      "role": "user",
+      "registrationDate": "2024-01-15T10:30:00Z",
+      "isActive": true,
+      "profile": {
+        "phone": "9876543210",
+        "company": "TechCorp",
+        "preferences": [
+          "Private Office",
+          "Wi-Fi",
+          "Parking"
+        ],
+        "membershipType": "Premium",
+        "membershipExpiry": "2024-12-31",
+        "totalSpent": 15000
+      },
+      "bookings": [
+        {
+          "bookingId": "BK001",
+          "workspaceId": "WS001",
+          "bookingDate": "2024-07-20",
+          "startDate": "2024-07-25",
+          "endDate": "2024-07-30",
+          "amount": 5000,
+          "advanceAmount": 1500,
+          "status": "confirmed",
+          "paymentMethod": "UPI"
+        }
+      ]
+    },
+    {
+      "id": "94e9",
+      "name": "Prathibha",
+      "email": "prathibha@gmail.com",
+      "password": "prathibha123",
+      "role": "user",
+      "registrationDate": "2024-02-10T14:20:00Z",
+      "isActive": true,
+      "profile": {
+        "phone": "9876543211",
+        "company": "StartupXYZ",
+        "preferences": [
+          "All Access Plus",
+          "Conference Room"
+        ],
+        "membershipType": "Basic",
+        "membershipExpiry": "2024-10-31",
+        "totalSpent": 8000
+      },
+      "bookings": []
+    },
+    {
+      "id": "35ab",
+      "name": "Prathibha2",
+      "email": "prathibha2@gmail.com",
+      "password": "prathibha2",
+      "role": "Merchant",
+      "registrationDate": "2024-03-01T11:45:00Z",
+      "isActive": true,
+      "profile": {
+        "company": "Premium Spaces Pvt Ltd",
+        "phone": "9876543200",
+        "gst": "36ABCDE1234F1Z5",
+        "address": "Banjara Hills, Hyderabad",
+        "totalWorkspaces": 3,
+        "totalEarnings": 45000,
+        "status": "verified"
+      },
+      "workspaces": [
+        "WS001",
+        "WS002"
+      ],
+      "bankDetails": {
+        "accountNumber": "1234567890",
+        "ifsc": "SBIN0001234",
+        "accountHolderName": "Prathibha2"
+      }
+    },
+    {
+      "name": "Prathyusha",
+      "email": "prathyusha@gmail.com",
+      "password": "prathyusha",
+      "role": "Admin",
+      "id": "Wf5R_rT",
+      "registrationDate": "2024-01-01T08:00:00Z",
+      "isActive": true,
+      "permissions": [
+        "manage_users",
+        "manage_merchants",
+        "manage_cities",
+        "view_analytics"
+      ],
+      "lastLogin": "2024-07-25T09:00:00Z"
+    }
+  ],
+  "locations": [
+    {
+      "id": "LOC001",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "subcities": [
+        {
+          "id": "SUB001",
+          "name": "Madhapur",
+          "coordinates": {
+            "lat": 17.4485,
+            "lng": 78.3908
+          }
+        },
+        {
+          "id": "SUB002",
+          "name": "Gachibowli",
+          "coordinates": {
+            "lat": 17.4399,
+            "lng": 78.3487
+          }
+        },
+        {
+          "id": "SUB003",
+          "name": "Kondapur",
+          "coordinates": {
+            "lat": 17.4618,
+            "lng": 78.3638
+          }
+        },
+        {
+          "id": "SUB004",
+          "name": "KPHB",
+          "coordinates": {
+            "lat": 17.4978,
+            "lng": 78.3914
+          }
+        },
+        {
+          "id": "SUB005",
+          "name": "Jubilee Hills",
+          "coordinates": {
+            "lat": 17.4239,
+            "lng": 78.4083
+          }
+        }
+      ],
+      "image": "https://i.ytimg.com/vi/UPRKkSU5_40/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD5wCsISUqojnSKTYwGOT2h-hfaog",
+      "totalWorkspaces": 25
+    },
+    {
+      "id": "LOC002",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "subcities": [
+        {
+          "id": "SUB006",
+          "name": "Indiranagar",
+          "coordinates": {
+            "lat": 12.9784,
+            "lng": 77.6408
+          }
+        },
+        {
+          "id": "SUB007",
+          "name": "Koramangala",
+          "coordinates": {
+            "lat": 12.9352,
+            "lng": 77.6245
+          }
+        },
+        {
+          "id": "SUB008",
+          "name": "Whitefield",
+          "coordinates": {
+            "lat": 12.9698,
+            "lng": 77.75
+          }
+        }
+      ],
+      "image": "https://www.godrej-ananda.net.in/images/other/how-bangalore-got-its-name.webp",
+      "totalWorkspaces": 30
+    },
+    {
+      "id": "LOC003",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "subcities": [
+        {
+          "id": "SUB009",
+          "name": "T Nagar",
+          "coordinates": {
+            "lat": 13.0418,
+            "lng": 80.2341
+          }
+        },
+        {
+          "id": "SUB010",
+          "name": "OMR",
+          "coordinates": {
+            "lat": 12.8956,
+            "lng": 80.2267
+          }
+        },
+        {
+          "id": "SUB011",
+          "name": "Velachery",
+          "coordinates": {
+            "lat": 12.9833,
+            "lng": 80.2167
+          }
+        }
+      ],
+      "image": "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/1765681589chennai-1696645357481.jpg",
+      "totalWorkspaces": 18
+    }
+  ],
+  "solutions": [
+    { "id": 1, "type": "Co Working Spaces" },
+    { "id": 2, "type": "Office Spaces" },
+    { "id": 3, "type": "Virtual Office by Network" },
+    { "id": 4, "type": "Advertisements" },
+    { "id": 5, "type": "Events" }
+  ],
+  "workspaces": [
+    {
+      "id": "WS001",
+      "name": "SkyTower Premium",
+      "merchantId": "35ab",
+      "locationId": "LOC001",
+      "subcity": "Jubilee Hills",
+      "address": "Plot 123, Road No 36, Jubilee Hills, Hyderabad",
+      "coordinates": {
+        "lat": 17.4239,
+        "lng": 78.4083
+      },
+      "images": [
+        "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/1.jpg",
+        "https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg",
+        "https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg"
+      ],
+      "tagline": "Premium workspace in Jubilee Hills",
+      "description": "State-of-the-art workspace with modern amenities and 24/7 access",
+      "amenities": [
+        "Wi-Fi",
+        "Parking",
+        "Cafeteria",
+        "Conference Room",
+        "AC",
+        "Security"
+      ],
+      "workspaceTypes": [
+        {
+          "typeId": 1,
+          "typeName": "Private Office",
+          "capacity": 10,
+          "pricePerDay": 1000,
+          "pricePerMonth": 25000,
+          "available": 5
+        },
+        {
+          "typeId": 2,
+          "typeName": "All Access Plus",
+          "capacity": 50,
+          "pricePerDay": 500,
+          "pricePerMonth": 12000,
+          "available": 30
+        }
+      ],
+      "ratings": {
+        "average": 4.5,
+        "totalReviews": 25
+      },
+      "operatingHours": {
+        "weekdays": "09:00 - 22:00",
+        "weekends": "10:00 - 20:00"
+      },
+      "contact": {
+        "phone": "040-12345678",
+        "email": "info@skytower.com"
+      },
+      "status": "active",
+      "createdDate": "2024-06-15"
+    },
+    {
+      "id": "WS002",
+      "name": "UrbanWork Hub",
+      "merchantId": "35ab",
+      "locationId": "LOC001",
+      "subcity": "Madhapur",
+      "address": "HITEC City, Madhapur, Hyderabad",
+      "coordinates": {
+        "lat": 17.4485,
+        "lng": 78.3908
+      },
+      "images": [
+        "https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg",
+        "https://images.pexels.com/photos/3182749/pexels-photo-3182749.jpeg"
+      ],
+      "tagline": "Tech hub workspace solution",
+      "description": "Perfect for startups and tech companies",
+      "amenities": [
+        "Wi-Fi",
+        "Parking",
+        "Gaming Zone",
+        "Conference Room"
+      ],
+      "workspaceTypes": [
+        {
+          "typeId": 3,
+          "typeName": "On-demand day pass",
+          "capacity": 20,
+          "pricePerDay": 300,
+          "pricePerMonth": 8000,
+          "available": 15
+        }
+      ],
+      "ratings": {
+        "average": 4.2,
+        "totalReviews": 18
+      },
+      "operatingHours": {
+        "weekdays": "08:00 - 23:00",
+        "weekends": "09:00 - 21:00"
+      },
+      "contact": {
+        "phone": "040-87654321",
+        "email": "hello@urbanwork.com"
+      },
+      "status": "active",
+      "createdDate": "2024-05-20"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "BK001",
+      "userId": "1418",
+      "workspaceId": "WS001",
+      "workspaceTypeId": 1,
+      "bookingDate": "2024-07-20T10:30:00Z",
+      "startDate": "2024-07-25",
+      "endDate": "2024-07-30",
+      "duration": 5,
+      "durationType": "days",
+      "totalAmount": 5000,
+      "advanceAmount": 1500,
+      "remainingAmount": 3500,
+      "status": "confirmed",
+      "paymentDetails": {
+        "method": "UPI",
+        "transactionId": "TXN123456789",
+        "paymentDate": "2024-07-20T10:35:00Z"
+      },
+      "guests": 2,
+      "specialRequests": "Need projector setup"
+    }
+  ],
+  "merchantSubmissions": [
+    {
+      "id": 1,
+      "name": "SkyTower",
+      "tagline": "Premium workspace in Jubilee Hills",
+      "image": "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/1.jpg",
+      "city": "Hyderabad",
+      "subcity": "Jubilee Hills"
+    },
+    {
+      "id": 2,
+      "name": "UrbanWork Hub",
+      "tagline": "Smartest spot in Banjara Hills",
+      "image": "https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg",
+      "city": "Hyderabad",
+      "subcity": "Banjara Hills"
+    },
+    {
+      "id": "f700",
+      "fullName": "hsdfvh",
+      "email": "gyftrdexdfcg@gmail.com",
+      "phone": "987654321",
+      "picture": {},
+      "building": "Prime Center",
+      "workspaceCount": "30",
+      "workspaceTypes": [
+        "Ad Spaces"
+      ],
+      "tagline": "Work is everything",
+      "images": [
+        {},
+        {},
+        {}
+      ],
+      "city": "Hyderabad",
+      "subcity": "Jubilee Hills",
+      "customSubcity": "",
+      "location": {
+        "lat": "",
+        "lng": ""
+      }
+    }
+  ],
+  "workspaceTypes": [
+    {
+      "id": 1,
+      "title": "Private Office",
+      "description": "Fully-equipped, ready-to-move-in or customisable private offices",
+      "icon": "https://static.vecteezy.com/system/resources/previews/025/500/725/non_2x/3d-rendering-of-a-modern-office-interior-workplace-and-equipment-corporate-office-room-interior-design-ai-generated-free-photo.jpg",
+      "features": [
+        "Dedicated space",
+        "24/7 access",
+        "Customizable layout"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "All Access Plus",
+      "description": "Access to shared workspaces with a prepaid, monthly WeWork membership",
+      "icon": "https://www.shutterstock.com/shutterstock/videos/3530496887/thumb/4.jpg?ip=x480",
+      "features": [
+        "Multiple locations",
+        "Flexible hours",
+        "Community access"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "On-demand day pass",
+      "description": "Book day passes at productive workspace on-the-go and pay per use",
+      "icon": "https://officialnbcardshow.com/cdn/shop/files/1_d79dfa34-6055-4f84-b9e2-10fb0fe79977.png?v=1722463396&width=533",
+      "features": [
+        "Pay per use",
+        "No commitment",
+        "Instant booking"
+      ]
+    }
+  ],
+  "carouselPromotions": [
+    {
+      "id": 1,
+      "title": "Get 25% off on Place Registration!",
+      "text": "Register your workspace with us today and unlock exclusive visibility across our platform.",
+      "link": "/register",
+      "image": "https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg",
+      "validTill": "2024-12-31",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "title": "Need to Book a Workspace?",
+      "text": "Explore and book coworking spaces across top cities. Instant access, no hidden charges!",
+      "link": "/workspaces",
+      "image": "https://images.pexels.com/photos/707582/pexels-photo-707582.jpeg",
+      "validTill": "2024-12-31",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "title": "Take a Look at All Our Spaces",
+      "text": "View detailed photos and features of each workspace before you decide.",
+      "link": "/spaces-gallery",
+      "image": "https://images.pexels.com/photos/3182749/pexels-photo-3182749.jpeg",
+      "validTill": "2024-12-31",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "title": "Get up to 20% Off on Membership",
+      "text": "Join our community and enjoy premium benefits, priority bookings and exclusive pricing.",
+      "link": "/membership",
+      "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+      "validTill": "2024-12-31",
+      "isActive": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "REV001",
+      "userId": "1418",
+      "workspaceId": "WS001",
+      "rating": 5,
+      "comment": "Excellent workspace with great amenities!",
+      "reviewDate": "2024-07-22T14:30:00Z",
+      "helpful": 12
+    }
+  ],
+  "analytics": {
+    "totalUsers": 50,
+    "totalMerchants": 15,
+    "totalWorkspaces": 45,
+    "totalBookings": 120,
+    "monthlyRevenue": 85000,
+    "popularCities": [
+      {
+        "cityId": "LOC001",
+        "bookings": 65
+      },
+      {
+        "cityId": "LOC002",
+        "bookings": 55
+      }
+    ]
+  },
+  "contactSubmissions": [
+    {
+      "id": "9678",
+      "name": "Varaprasad",
+      "email": "vara@gmail.com",
+      "phone": "987654321",
+      "subject": "workspace",
+      "message": "jhfgyufgvwbf"
+    }
+  ], 
+  "certificationsAndAwards": [
+  {
+    "id": 1,
+    "title": "Best Co-working Space 2024",
+    "description": "Awarded by Workspace Association for outstanding service and community.",
+    "image": "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Top Rated by Startups",
+    "description": "Recognized by 100+ startups for flexible, innovative workspaces.",
+    "image": "https://images.pexels.com/photos/3153207/pexels-photo-3153207.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Green Workspace Champion",
+    "description": "Honored for eco-friendly infrastructure and sustainable initiatives.",
+    "image": "https://images.pexels.com/photos/3815585/pexels-photo-3815585.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Customer Excellence Award",
+    "description": "Awarded for delivering outstanding customer satisfaction.",
+    "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg"
+  }
+]
+
+}
