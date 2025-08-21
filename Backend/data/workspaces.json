@@ -1,0 +1,109 @@
+[
+    {
+      "id": "WS001",
+      "name": "SkyTower Premium",
+      "merchantId": "35ab",
+      "locationId": "LOC001",
+      "subcity": "Jubilee Hills",
+      "address": "Plot 123, Road No 36, Jubilee Hills, Hyderabad",
+      "coordinates": {
+        "lat": 17.4239,
+        "lng": 78.4083
+      },
+      "images": [
+        "https://res.cloudinary.com/myhq/image/upload/workspaces/cowrks-the-skyview/1.jpg",
+        "https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg",
+        "https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg"
+      ],
+      "tagline": "Premium workspace in Jubilee Hills",
+      "description": "State-of-the-art workspace with modern amenities and 24/7 access",
+      "amenities": [
+        "Wi-Fi",
+        "Parking",
+        "Cafeteria",
+        "Conference Room",
+        "AC",
+        "Security"
+      ],
+      "workspaceTypes": [
+        {
+          "typeId": 1,
+          "typeName": "Private Office",
+          "capacity": 10,
+          "pricePerDay": 1000,
+          "pricePerMonth": 25000,
+          "available": 5
+        },
+        {
+          "typeId": 2,
+          "typeName": "All Access Plus",
+          "capacity": 50,
+          "pricePerDay": 500,
+          "pricePerMonth": 12000,
+          "available": 30
+        }
+      ],
+      "ratings": {
+        "average": 4.5,
+        "totalReviews": 25
+      },
+      "operatingHours": {
+        "weekdays": "09:00 - 22:00",
+        "weekends": "10:00 - 20:00"
+      },
+      "contact": {
+        "phone": "040-12345678",
+        "email": "info@skytower.com"
+      },
+      "status": "active",
+      "createdDate": "2024-06-15"
+    },
+    {
+      "id": "WS002",
+      "name": "UrbanWork Hub",
+      "merchantId": "35ab",
+      "locationId": "LOC001",
+      "subcity": "Madhapur",
+      "address": "HITEC City, Madhapur, Hyderabad",
+      "coordinates": {
+        "lat": 17.4485,
+        "lng": 78.3908
+      },
+      "images": [
+        "https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg",
+        "https://images.pexels.com/photos/3182749/pexels-photo-3182749.jpeg"
+      ],
+      "tagline": "Tech hub workspace solution",
+      "description": "Perfect for startups and tech companies",
+      "amenities": [
+        "Wi-Fi",
+        "Parking",
+        "Gaming Zone",
+        "Conference Room"
+      ],
+      "workspaceTypes": [
+        {
+          "typeId": 3,
+          "typeName": "On-demand day pass",
+          "capacity": 20,
+          "pricePerDay": 300,
+          "pricePerMonth": 8000,
+          "available": 15
+        }
+      ],
+      "ratings": {
+        "average": 4.2,
+        "totalReviews": 18
+      },
+      "operatingHours": {
+        "weekdays": "08:00 - 23:00",
+        "weekends": "09:00 - 21:00"
+      },
+      "contact": {
+        "phone": "040-87654321",
+        "email": "hello@urbanwork.com"
+      },
+      "status": "active",
+      "createdDate": "2024-05-20"
+    }
+  ]
